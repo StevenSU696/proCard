@@ -38,6 +38,7 @@ body {
   border-radius: 50%;
   height: 20%;
   width: 20%;
+  transition: 0.2s;
 }
 .myself {
   width: 100%;
@@ -72,6 +73,7 @@ body {
   background-color: #fdd85d;
   align-items: center;
   justify-content: center;
+  transition: 0.2s;
 }
 
 .link:hover,
