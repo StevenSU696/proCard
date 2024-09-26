@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+}
+
+body {
+  background-color: #fffdf7;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.containerOne {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 1%;
+  width: 30%;
+  height: 650px;
+  background-image: linear-gradient(to right, #99d6ea, #99d6ea83);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 2%;
+}
+.myself {
+  margin-top: 1%;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10%;
+}
+.avatar {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.geoloc {
+  color: green;
+}
+
+.liste {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  border-radius: 4%;
+  width: 300px;
+  height: 50px;
+  background-color: #fdd85d;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign {
+  margin-bottom: 10px;
+}
