@@ -24,7 +24,7 @@ body {
   margin-bottom: 2%;
   width: 30%;
   height: 100%;
-  background-image: linear-gradient(to right, #99d6ea, #99d6ea83);
+  background-image: linear-gradient(to right, #99d6ea, #99d6ea8a);
   display: flex;
   justify-content: center;
   align-items: center;
