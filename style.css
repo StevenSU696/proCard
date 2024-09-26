@@ -20,21 +20,21 @@ body {
 }
 
 .container {
-  margin-top: 1%;
+  margin-top: 5%;
   width: 30%;
-  height: 650px;
+  height: 100%;
   background-image: linear-gradient(to right, #99d6ea, #99d6ea83);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   border-radius: 2%;
 }
 .myself {
-  margin-top: 1%;
+  margin-top: 2%;
   width: 100%;
-  height: 40%;
+  height: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -52,22 +52,33 @@ body {
 }
 
 .liste {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
+  gap: 10px;
 }
 
 .link {
   display: flex;
   border-radius: 4%;
-  width: 300px;
+  width: 100%;
   height: 50px;
   background-color: #fdd85d;
   align-items: center;
   justify-content: center;
+}
+
+.contact {
+  display: flex;
+  border-radius: 4%;
+  width: 100%;
+  height: 50px;
+  background-color: #fdd85d;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .sign {
