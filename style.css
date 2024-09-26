@@ -79,8 +79,7 @@ body {
 .link:hover,
 .contact:hover,
 .avatar:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
+  animation: shaking 1.7s infinite;
 }
 
 .contact {
@@ -100,5 +99,21 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 30%;
+  }
+}
+
+@keyframes shaking {
+  10% {
+    transform: scale(1.2);
+  }
+
+  30% {
+    transform: rotate(3deg);
+  }
+  40% {
+    transform: rotate(-3deg);
+  }
+  90% {
+    transform: rotate(0);
   }
 }
