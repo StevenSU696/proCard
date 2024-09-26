@@ -62,7 +62,8 @@ body {
   gap: 10px;
 }
 
-.link {
+.link,
+.contact {
   display: flex;
   border-radius: 4%;
   width: 100%;
@@ -72,14 +73,14 @@ body {
   justify-content: center;
 }
 
+.link:hover,
+.contact:hover,
+.avatar:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
 .contact {
-  display: flex;
-  border-radius: 4%;
-  width: 100%;
-  height: 50px;
-  background-color: #fdd85d;
-  align-items: center;
-  justify-content: center;
   margin-top: 5%;
 }
 
