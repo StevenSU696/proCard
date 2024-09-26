@@ -21,6 +21,7 @@ body {
 
 .container {
   margin-top: 5%;
+  margin-bottom: 5%;
   width: 30%;
   height: 100%;
   background-image: linear-gradient(to right, #99d6ea, #99d6ea83);
@@ -44,7 +45,8 @@ body {
 }
 .avatar {
   border-radius: 50%;
-  height: 100px;
+  height: 20%;
+  width: 20%;
 }
 
 .geoloc {
